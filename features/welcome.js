@@ -101,7 +101,7 @@ module.exports = (client) => {
     // Corta e desenha a imagem circular
     ctx.drawImage(avatar, 72, 48, 150, 150);
 
-    // Attach the image to a message and send it
+    // Anexa a imagem e envia uma mensagem
     const attachment = new MessageAttachment(canvas.toBuffer())
     channel.send('', attachment)
   })

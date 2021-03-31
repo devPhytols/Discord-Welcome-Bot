@@ -11,7 +11,7 @@ client.on('ready', () => {
         featureDir: 'features'
     })
     .setMongoPath(process.env.MONGO_URI)
-    .setDefaultPrefix('ub!') // Altere o Prefixo
+    .setDefaultPrefix('ub!') // Alterar o Prefixo
 })
  
 client.login(process.env.TOKEN).then(() => {
