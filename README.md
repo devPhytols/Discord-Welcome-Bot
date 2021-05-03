@@ -11,7 +11,8 @@ Vá para `.env` e configure.
 
 ```
 ping, verifica a latencia.
-setwelcome, seleciona o canal de boas vindas (example: <prefix>setwelcome #welcome).
+setwelcome, seleciona o canal de boas vindas 
+(example: <prefix>setwelcome #welcome).
 simjoin, testa se o canal de welcome foi definido corretamente.
 ```
 
