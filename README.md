@@ -5,7 +5,7 @@ Um simples bot de boas vindas utilizando canvas e discord.js.
 ### ⚡ Installation
 
 Após baixar meu código.
-Vá para `.env` e configure.
+Vá para `.env_example`, renomeie para `.env` e configure.
 
 ### 💡 Comandos Gerais=
 
