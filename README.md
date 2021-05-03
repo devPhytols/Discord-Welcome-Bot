@@ -2,10 +2,13 @@
 
 Um simples bot de boas vindas utilizando canvas e discord.js.
 
-### ⚡ Installation
-
+### ⚡ Instalação
 Após baixar meu código.
 Vá para `.env_example`, renomeie para `.env` e configure.
+
+```
+Digite `npm i` e dê enter no terminal para baixar os pacotes!
+```
 
 ### 💡 Comandos Gerais=
 
