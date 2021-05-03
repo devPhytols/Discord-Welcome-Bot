@@ -1,5 +1,4 @@
-// "welcome.js" file within the "features" folder
-// Note the capital 'C'
+// Definindo
 const Canvas = require('canvas')
 const jimp = require("jimp")
 const gradians = require("../gradiants.json")
@@ -32,14 +31,14 @@ module.exports = (client) => {
       }
     }
     
-    // Async function
-    // Destructure the guild property from the member object
+    // Função Async
+    // Destrói a propriedade da guilda do objeto membro
     const { guild } = member
-    // Access the channel ID for this guild from the cache
+    // Acessa o ID do canal para esta guilda pelo cache
     const channelId = getChannelId(guild.id)
-    // Access the actual channel and send the message
+    // Acessa o canal atual e envia a mensagem
     const channel = guild.channels.cache.get(channelId)
-    // Create a canvas and access the 2d context
+    // Cria o modelo e acesse o context
     const canvas = Canvas.createCanvas(700, 250);
     const ctx = canvas.getContext("2d");
     if (blur) {
