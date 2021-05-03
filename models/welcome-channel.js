@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
-// Estamos usando isso várias vezes, então defina
-// em um objeto para limpar nosso código 
+// Definindo a função
 const reqString = {
   type: String,
   required: true,
