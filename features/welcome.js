@@ -15,14 +15,14 @@ module.exports = (client) => {
       blur = true;
     }
     if (link && gradiant) {
-      return console.log("You can not use link and gradiant at a same time");
+      return console.log("Erro de Gradient");
     }
 
     if (!link) {
       if (gradiant) {
         let color = gradians.find(x => x.name === gradiant.toLowerCase());
         if (!color) {
-          return console.log("Invalid Gradiant Color :v");
+          return console.log("Cor Inválida");
         }
 
         link = color.link;
