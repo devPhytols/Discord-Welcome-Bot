@@ -32,13 +32,13 @@ module.exports = (client) => {
     }
     
     // Função Async
-    // Destrói a propriedade da guilda do objeto membro
+    // Propriedade da guilda do objeto membro
     const { guild } = member
-    // Acessa o ID do canal para esta guilda pelo cache
+    // ID do canal para esta guilda pelo cache
     const channelId = getChannelId(guild.id)
-    // Acessa o canal atual e envia a mensagem
+    // Canal atual e envia a mensagem
     const channel = guild.channels.cache.get(channelId)
-    // Cria o modelo e acesse o context
+    // Cria o modelo
     const canvas = Canvas.createCanvas(700, 250);
     const ctx = canvas.getContext("2d");
     if (blur) {
